@@ -1,0 +1,33 @@
+{
+  "name": "decider",
+  "description": "Apply CSS to React components conditionally",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "css-modules",
+    "css",
+    "webpack"
+  ],
+  "maintainers": [
+    {
+      "name": "Miloslav Voloskov",
+      "email": "hello@miloslav.website",
+      "web": "https://miloslav.website"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/uyouthe/decider/issues"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:uyouthe/decider.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://github.com/uyouthe/decider/blob/master/LICENSE"
+    }
+  ]
+}
