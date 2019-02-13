@@ -11,7 +11,7 @@ export default (styles, decisionMatrix) => {
   let result = ''
   
   for (let i in classNames) {
-    const className = keys[i]
+    const className = classNames[i]
     const shouldBeApplied = decisionMatrix[className]
     
     if (shouldBeApplied) {
