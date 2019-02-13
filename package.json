@@ -2,6 +2,7 @@
   "name": "decider",
   "description": "Apply CSS to React components conditionally",
   "version": "1.0.0",
+  "main": "decider.js",
   "keywords": [
     "react",
     "css-modules",
