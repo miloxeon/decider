@@ -49,7 +49,7 @@ export default props => (
     
     // 'narrow' class name would be applied if 'width' prop is less than 400
     narrow: props.width < 400
-  }} >
+  })} >
     ...
   </header>
 )
