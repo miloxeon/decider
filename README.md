@@ -35,12 +35,20 @@ import styles from './header.module.css'
 
 export default props => (
   <header className={ decide(styles, {
-    header: true,                 // 'header' class name is always applied
-    mobile: props.mobile,         // 'mobile' class name will apply if 'mobile' prop is truthy,
-                                  //          so the result would be 'header mobile'
-    fixed: props.fixed || !props.mobile,  // 'fixed' would be applied either if there's an
-                                          //  explicitly set 'fixed' prop or if the 'mobile' prop is falsy
-    narrow: props.width < 400     // 'narrow' class name would be applied if 'width' prop is less than 400
+  
+    // 'header' class name is always applied
+    header: true,
+    
+    // 'mobile' class name will apply if 'mobile' prop is truthy,
+    // so the result would be 'header mobile'
+    mobile: props.mobile,
+    
+    // 'fixed' would be applied either if there's an
+    // explicitly set 'fixed' prop or if the 'mobile' prop is falsy
+    fixed: props.fixed || !props.mobile,
+    
+    // 'narrow' class name would be applied if 'width' prop is less than 400
+    narrow: props.width < 400
   }} >
     ...
   </header>
