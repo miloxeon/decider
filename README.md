@@ -16,7 +16,7 @@ There's a need of switching class names according to some conditions. Here's som
 
  - You have a shopping cart which can be either `cart` or `cart empty` according to its props 
 
- - You have a Header component. Its class name is always header, but on a mobile device, it should be also mobile. Oh, and if the width prop is less than '400px', it should be also narrow. Oh, and it should be hidden when either hidden prop is truthy but not if it equals to "false" string, and it should be also fixed when it isn't either narrow or mobile.
+ - You have a Header component. Its class name is always `header`, but on a mobile device, it should be also `mobile`. Oh, and if the `width` prop is less than '400px', it should be also `narrow`. Oh, and it should be `hidden` when either `hidden` prop is truthy but not equals to `"false"` string, and it should be also `fixed` when it isn't either `narrow` or `mobile`.
  
  - You have an universal rules like a `mobile` class name should be applied to all of your components and you want to have the decision logic as a single piece of code imported by all of your components  
  
