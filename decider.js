@@ -6,18 +6,6 @@
 }
 */
 
-export default (styles, decisionMatrix) => {
-  const classNames = Object.keys(decisionMatrix)
-  let result = ''
-  
-  for (let i in classNames) {
-    const className = classNames[i]
-    const shouldBeApplied = decisionMatrix[className]
-    
-    if (shouldBeApplied) {
-      result += styles[className] + ' '
-    }
-  }
-  
-  return result
-}
+export default (styles, decisionMatrix) => Object.keys(decisionMatrix)
+  .map(className => decisionMatrix[className] ? styles[className] : '')
+  .join(' ')
