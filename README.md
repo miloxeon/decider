@@ -8,7 +8,7 @@ className={ decide(styles, {
     narrow: parseInt(props.width) < 400,
     hidden: props.hidden !== "false" || props.hidden,
     fixed: parseInt(props.width) >= 400 || !props.isMobile
-  })}
+})}
 ```
 
 ## Why?
