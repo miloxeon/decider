@@ -6,7 +6,7 @@ className={ decide(styles, {
     header: true,
     mobile: props.isMobile,
     narrow: parseInt(props.width) < 400,
-    hidden: props.hidden !== "false" || props.hidden,
+    hidden: (props.hidden !== "false" && Boolean(props.hidden)),
     fixed: parseInt(props.width) >= 400 || !props.isMobile
 })}
 ```
