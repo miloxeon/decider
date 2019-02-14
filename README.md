@@ -66,3 +66,13 @@ export default props => (
 
 ```
 
+## Differences from [classnames](https://www.npmjs.com/package/classnames)
+
+ - `Decide` is a pure function. It works without that bind magic, so you can use it virtually anywhere. 
+ 
+ - Smaller bundle size: Decider is just 171 bytes away! 
+ 
+ - Syntax and usage are much easier to adopt 
+ 
+
+
