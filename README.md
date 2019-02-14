@@ -72,7 +72,5 @@ export default props => (
  
  - Smaller bundle size: Decider is ![GZip size badge](https://img.badgesize.io/uyouthe/decider/master/decider.js?compression=gzip&label=As%20tiny%20as) ! 
  
- - Syntax and usage are much easier to adopt 
+ - Syntax and usage are much easier to adopt.
  
-
-
