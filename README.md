@@ -68,7 +68,7 @@ export default props => (
 
 ## Differences from [classnames](https://www.npmjs.com/package/classnames)
 
- - `Decide` is a pure function. It works without that bind magic, so you can use it virtually anywhere. 
+ - `Decide` is a pure function. It works with CSS modules without that bind magic needed, so you can use it virtually anywhere. Classnames, on the other hand, becomes as simple as Decider just with CSS modules, but by the cost of lost purity and not being able to be used with functional components.
  
  - Smaller bundle size: Decider is ![GZip size badge](https://img.badgesize.io/uyouthe/decider/master/decider.js?compression=gzip&label=As%20tiny%20as) ! 
  
