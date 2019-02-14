@@ -1,6 +1,16 @@
 # ☝️ Decider
 Apply CSS to React components conditionally, like a boss.
 
+```JS
+className={ decide(styles, {
+    header: true,
+    mobile: props.isMobile,
+    narrow: parseInt(props.width) < 400,
+    hidden: props.hidden !== "false" || props.hidden,
+    fixed: parseInt(props.width) >= 400 || !props.isMobile
+  })}
+```
+
 ## Why?
 There's a need of switching class names according to some conditions. Here's some examples: 
 
