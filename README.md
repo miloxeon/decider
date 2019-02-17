@@ -1,4 +1,4 @@
-# 🤔 Decider ![GZip size badge](https://img.badgesize.io/uyouthe/decider/master/decider.js?compression=gzip&label=As%20tiny%20as)
+# 🤔 Decider ![GZip size badge](https://img.badgesize.io/uyouthe/decider/master/decider.js?compression=gzip&label=As%20tiny%20as) [![Become a patron](https://miloslav.website/patreon.svg)](https://www.patreon.com/uyouthe)
 Apply CSS to React components conditionally, like a boss.
 
 ```JS
