@@ -24,7 +24,7 @@ I bet you get the idea. This is what decider is for, and this package could help
 
 ## Installation 
 ```
-npm i --save uyouthe/decider
+npm i --save mvoloskov/decider
 ```
 
 ## Syntax
