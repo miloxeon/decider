@@ -1,5 +1,5 @@
-# 🤔 Decider ![GZip size badge](https://img.badgesize.io/uyouthe/decider/master/decider.js?compression=gzip&label=As%20tiny%20as) 
-Apply CSS to React components conditionally, like a boss.
+# 🤔 Decider ![GZip size badge](https://img.badgesize.io/miloxeon/decider/master/decider.js?compression=gzip&label=As%20tiny%20as) 
+Apply CSS to React components conditionally.
 
 ```JS
 className={ decide(styles, {
@@ -24,7 +24,7 @@ I bet you get the idea. This is what decider is for, and this package could help
 
 ## Installation 
 ```
-npm i --save mvoloskov/decider
+npm i --save miloxeon/decider
 ```
 
 ## Syntax
@@ -70,7 +70,7 @@ export default props => (
 
  - `Decide` is a pure function. It works with CSS modules without that bind magic needed, so you can use it virtually anywhere. Classnames, on the other hand, becomes as simple as Decider just with CSS modules, but by the cost of lost purity and not being able to be used with functional components.
  
- - Smaller bundle size: Decider is ![GZip size badge](https://img.badgesize.io/uyouthe/decider/master/decider.js?compression=gzip&label=As%20tiny%20as) ! 
+ - Smaller bundle size: Decider is ![GZip size badge](https://img.badgesize.io/miloxeon/decider/master/decider.js?compression=gzip&label=As%20tiny%20as) ! 
  
  - Syntax and usage are much easier to adopt.
  
