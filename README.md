@@ -3,7 +3,7 @@ I parted ways with React. This package will not be updated to support future ver
 
 The original readme:
 
-## 🤔 Decider ![GZip size badge](https://img.badgesize.io/miloxeon/decider/master/decider.js?compression=gzip&label=As%20tiny%20as) 
+## 🤔 Decider 
 Apply CSS to React components conditionally.
 
 ```JS
@@ -65,6 +65,6 @@ export default props => (
 
 ## Differences from [classnames](https://www.npmjs.com/package/classnames)
  - `decide` is a pure function. It works with CSS modules without bind magic, so you can use it virtually anywhere.
- - Smaller bundle size: Decider is ![GZip size badge](https://img.badgesize.io/miloxeon/decider/master/decider.js?compression=gzip&label=As%20tiny%20as) ! 
+ - Smaller bundle size: Decider is around 176 bytes gzipped! 
  - Syntax was much easier for me to adopt.
  
